@@ -1,5 +1,6 @@
 import React from 'react';
-const { Parser, transforms: { unwind } } = require('json2csv');
+// const { Parser, transforms: { unwind } } = require('json2csv');
+const { Parser } = require('json2csv');
 
 export default class SimpleForm extends React.Component {
     constructor(props) {
